@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom, #2F4858, #375277, #5A558F, #8D5298, #C0478D, #C0478D);
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.title{
+    color: white;
+    font-family: "Roboto", sans-serif;
+}
+
+
+.buttons button, .size-select button, input{
+    color: #486A72;
+    background-color: #F7F5DD;
+    border: 3px solid #2F4858;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 6px 10px 6px 10px;
+}
+
+.div-grid{
+    width: 500px;
+    height: 500px;
+    display: grid;
+    border: 6px solid #FFCE5B;
+    border-radius: 5px;
+}
+
